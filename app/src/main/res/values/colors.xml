@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lilac_background">#F5F0F8</color>
+    <color name="lilac_primary">#C8A2C8</color>
+    <color name="lilac_text_primary">#3D3C3D</color>
+    <color name="lilac_divider">#D1C4E9</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="purple_start">#6366F1</color>
+    <color name="purple_end">#8B5CF6</color>
+    <color name="pink_accent">#EC4899</color>
+    <color name="menu_background">#F8F9FA</color>
+    <color name="purple_primary">#6366F1</color>
+    <color name="purple_secondary">#A855F7</color>
+    <color name="pink_icon">#EC4899</color>
+    <color name="blue_icon">#3B82F6</color>
+    <color name="green_icon">#10B981</color>
+    <color name="orange_icon">#F59E0B</color>
+    <color name="material_dynamic_neutral60">#94908D</color>
+</resources>

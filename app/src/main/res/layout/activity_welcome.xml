@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="48sp"
+        android:textColor="@color/purple_secondary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="80dp" />
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="60dp">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_logo"
+            android:contentDescription="Fit-Nutri Tracker Logo"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fit-Nutri Tracker"
+        android:textSize="28sp"
+        android:textColor="@color/purple_secondary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fit-Nutri Tracker adalah aplikasi kesehatan cerdas yang dirancang untuk menjembatani kesenjangan antara data aktivitas fisik Anda dengan kebutuhan nutrisi harian"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="60dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Next"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="32dp"
+        style="?android:attr/borderlessButtonStyle" />
+
+</LinearLayout>

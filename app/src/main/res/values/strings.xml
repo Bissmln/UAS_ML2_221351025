@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fit-Nutri Tracker</string>
+
+    <!-- Strings untuk MainActivity (Halaman Utama) -->
+    <string name="main_activity_title">Halaman Utama</string>
+    <string name="menu_about_app">Tentang Aplikasi</string>
+    <string name="menu_features">Fitur</string>
+    <string name="menu_model">Model</string>
+    <string name="menu_simulation">Simulasi</string>
+
+    <!-- Strings untuk AboutActivity (Halaman Tentang Aplikasi) -->
+    <string name="about_activity_title">Tentang Aplikasi</string>
+    <string name="storyline_title">Storyline</string>
+    <string name="storyline_content">Aplikasi pelacak kebugaran ini dirancang untuk membantu pengguna memantau dan menganalisis aktivitas fisik mereka, seperti langkah, jarak, kalori terbakar, dan detak jantung. Tujuan utama adalah untuk mendorong gaya hidup sehat dan memberikan wawasan berdasarkan data kebugaran pribadi untuk mencapai target kesehatan.</string>
+    <string name="dataset_title">Dataset</string>
+    <string name="dataset_content">Dataset yang digunakan untuk analisis dan simulasi dalam aplikasi ini diambil dari Kaggle, dibuat oleh \'gspatwal\' dengan judul \'Fitness Tracker Data\'.</string>
+    <string name="dataset_link_title">Link Dataset :</string>
+    <string name="dataset_link_text">Fitness Tracker Data</string>
+    <!--<string name="how_it_works_title">Cara Kerja Aplikasi</string> -->
+    <string name="how_it_works_content">Aplikasi ini menyediakan berbagai menu untuk membantu Anda melacak kebugaran. Anda dapat melihat ringkasan aktivitas harian, menganalisis tren performa dari data yang terkumpul, dan melakukan simulasi berdasarkan target kebugaran pribadi Anda untuk melihat potensi pencapaian atau penyesuaian yang diperlukan.</string>
+    <string name="dataset_url">https://www.kaggle.com/datasets/gspatwal/fitness-tracker-data</string>
+
+    <!-- Strings untuk FeaturesActivity (Halaman Fitur) -->
+    <string name="features_activity_title">Fitur Dataset</string>
+
+    <string name="feature_steps_name">Langkah</string>
+    <string name="feature_steps_data_type">Int64</string>
+    <string name="feature_steps_data_type_display">Tipe Data: Int64</string>
+    <string name="feature_steps_value_form">Numerik</string>
+    <string name="feature_steps_value_form_display">Bentuk Nilai: Numerik</string>
+    <string name="feature_steps_description">Jumlah langkah yang diambil oleh pengguna dalam sehari. Ini adalah metrik kunci untuk mengukur tingkat aktivitas harian.</string>
+
+    <string name="feature_heart_rate_name">Detak Jantung</string>
+    <string name="feature_heart_rate_data_type">Int64</string>
+    <string name="feature_heart_rate_data_type_display">Tipe Data: Int64</string>
+    <string name="feature_heart_rate_value_form">Numerik</string>
+    <string name="feature_heart_rate_value_form_display">Bentuk Nilai: Numerik</string>
+    <string name="feature_heart_rate_description">Rata-rata detak jantung pengguna per menit. Indikator penting untuk intensitas latihan dan kesehatan kardiovaskular.</string>
+
+    <string name="feature_calories_burned_name">Kalori Terbakar</string>
+    <string name="feature_calories_burned_data_type">Int64</string>
+    <string name="feature_calories_burned_data_type_display">Tipe Data: Int64</string>
+    <string name="feature_calories_burned_value_form">Numerik</string>
+    <string name="feature_calories_burned_value_form_display">Bentuk Nilai: Numerik</string>
+    <string name="feature_calories_burned_description">Estimasi jumlah kalori yang dibakar pengguna selama aktivitas fisik atau sepanjang hari. Penting untuk manajemen berat badan.</string>
+
+    <string name="feature_bmi_name">BMI</string>
+    <string name="feature_bmi_data_type">Float64</string>
+    <string name="feature_bmi_data_type_display">Tipe Data: Float64</string>
+    <string name="feature_bmi_value_form">Numerik</string>
+    <string name="feature_bmi_value_form_display">Bentuk Nilai: Numerik</string>
+    <string name="feature_bmi_description">Indeks Massa Tubuh (BMI) pengguna. Digunakan untuk mengklasifikasikan status berat badan (kurus, normal, gemuk).</string>
+
+    <string name="feature_workout_intensity_name">Intensitas Latihan</string>
+    <string name="feature_workout_intensity_data_type">Objek (String)</string>
+    <string name="feature_workout_intensity_data_type_display">Tipe Data: Objek (String)</string>
+    <string name="feature_workout_intensity_value_form">Kategorikal</string>
+    <string name="feature_workout_intensity_value_form_display">Bentuk Nilai: Kategorikal</string>
+    <string name="feature_workout_intensity_description">Tingkat intensitas latihan yang dilakukan pengguna (misal: Rendah, Sedang, Tinggi). Membantu dalam memahami kualitas sesi latihan.</string>
+
+    <string name="feature_active_minutes_name">Menit Aktif</string>
+    <string name="feature_active_minutes_data_type">Int64</string>
+    <string name="feature_active_minutes_data_type_display">Tipe Data: Int64</string>
+    <string name="feature_active_minutes_value_form">Numerik</string>
+    <string name="feature_active_minutes_value_form_display">Bentuk Nilai: Numerik</string>
+    <string name="feature_active_minutes_description">Jumlah menit di mana pengguna aktif secara fisik. Mengukur durasi aktivitas moderat hingga intens.</string>
+
+    <!-- Strings untuk ArchitectureModelActivity (Halaman Arsitektur Model) -->
+    <string name="architecture_model_activity_title">Arsitektur Model</string>
+
+    <string name="data_preparation_title">Persiapan Data</string>
+    <string name="classify_activity_subtitle">1). Klasifikasi Aktivitas</string>
+    <string name="classify_activity_description">
+        Bagian ini menjelaskan langkah-langkah dalam persiapan data, termasuk kode Python untuk mengklasifikasikan aktivitas pengguna (Running, Walking, Resting) berdasarkan data langkah dan detak jantung dari dataset. Hasil klasifikasi ini ditambahkan sebagai kolom \'Activity\' baru.
+    </string>
+
+    <string name="feature_label_selection_subtitle">2). Pemilihan Fitur dan Label</string>
+    <string name="feature_label_selection_description">
+        Memilih fitur (Steps, Heart_Rate, Calories_Burned, BMI, Active_Minutes) sebagai input model (X) dan kolom \'Activity\' sebagai label target (y).
+    </string>
+
+    <string name="encoding_scaling_subtitle">3). Encoding Label dan Scaling Fitur</string>
+    <string name="encoding_scaling_description">
+        Proses ini mengubah label kategorikal menjadi representasi numerik menggunakan LabelEncoder dan menyesuaikan skala fitur numerik menggunakan StandardScaler agar model dapat memproses data dengan lebih efektif.
+    </string>
+
+    <string name="modeling_title">Modeling</string>
+    <string name="data_split_standardization_subtitle">1). Pemisahan Data dan Standardisasi</string>
+    <string name="data_split_standardization_description">
+        Data dibagi menjadi set pelatihan dan pengujian untuk melatih dan mengevaluasi model secara independen. Selanjutnya, fitur-fitur distandardisasi untuk memastikan semua fitur memiliki skala yang seragam, yang penting untuk kinerja model yang optimal.
+    </string>
+
+    <string name="model_architecture_subtitle">2). Arsitektur Model</string>
+    <string name="model_architecture_description">
+        Arsitektur model machine learning yang digunakan dalam aplikasi ini adalah jaringan saraf tiruan (neural network) sekuensial. Model ini terdiri dari beberapa lapisan Dense dengan fungsi aktivasi ReLU, Dropout untuk mencegah overfitting, dan lapisan output dengan aktivasi Softmax untuk klasifikasi multi-kelas.
+    </string>
+
+    <string name="model_training_subtitle">3). Pelatihan Model</string>
+    <string name="model_training_description">
+        Model dilatih menggunakan data pelatihan yang telah diproses. Proses pelatihan melibatkan penyesuaian bobot model berdasarkan loss function (sparse categorical crossentropy) dan optimizer (Adam) untuk meminimalkan error dan meningkatkan akurasi.
+    </string>
+
+    <string name="model_evaluation_title">Evaluasi Model</string>
+    <string name="model_evaluation_description">
+        Setelah pelatihan, model dievaluasi menggunakan data pengujian yang belum pernah dilihat model sebelumnya. Metrik seperti akurasi dan classification report (precision, recall, f1-score) digunakan untuk menilai seberapa baik kinerja model dalam memprediksi aktivitas.
+    </string>
+
+    <string name="model_conversion_save_title">Konversi dan Penyimpanan Model</string>
+    <string name="model_conversion_save_description">
+        Model yang telah dilatih kemudian dikonversi ke format TensorFlow Lite (TFLite). Format ini dioptimalkan untuk inferensi pada perangkat mobile, memungkinkan model berjalan efisien di aplikasi Android. Model TFLite kemudian disimpan untuk digunakan dalam aplikasi.
+    </string>
+
+    <string name="simulation_recommendation_title">Simulasi dan Rekomendasi</string>
+    <string name="simulation_recommendation_description">
+        Bagian ini memungkinkan simulasi prediksi berdasarkan input data kebugaran baru. Model akan memprediksi jenis aktivitas, dan berdasarkan aktivitas tersebut, sebuah fungsi rekomendasi nutrisi akan memberikan saran pola makan dan estimasi kebutuhan kalori.
+    </string>
+
+    <!-- Strings for SimulationActivity -->
+    <string name="simulation_activity_title">Simulasi Kebugaran</string>
+    <string name="steps_label">Langkah (Steps)</string>
+    <string name="heart_rate_label">Detak Jantung (Heart Rate)</string>
+    <string name="calories_burned_label">Kalori Terbakar (Calories Burned)</string>
+    <string name="bmi_label">BMI</string>
+    <string name="active_minutes_label">Menit Aktif (Active Minutes)</string>
+    <string name="height_cm_label">Tinggi Badan (cm)</string>
+    <string name="workout_intensity_label">Intensitas Latihan</string>
+    <string name="check_prediction_button_text">PERIKSA PREDIKSI</string>
+    <string name="prediction_result_label">Hasil Prediksi:</string>
+    <string name="activity_type_display">Jenis Aktivitas: %s</string>
+    <string name="diet_recommendation_display">Pola Makan: %s</string>
+    <string name="calorie_needs_display">Kebutuhan Kalori: %d kcal</string>
+    <string name="input_validation_message">Mohon lengkapi semua data input.</string>
+    <string name="prediction_complete_message">Prediksi Selesai!</string>
+
+    <!-- Options for Workout Intensity Spinner -->
+    <string-array name="workout_intensity_options">
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+    </string-array>
+
+    <!-- Diet Recommendation Strings -->
+    <string name="diet_high_protein">Tinggi Protein</string>
+    <string name="diet_balanced_meal">Pola Makan Seimbang</string>
+    <string name="diet_light_meal">Pola Makan Ringan</string>
+    <string name="diet_unknown">Tidak Diketahui</string>
+
+    <!-- About App Strings -->
+    <string name="about_app_title">Tentang Aplikasi</string>
+    <string name="about_app_name_title">Fit-Nutri Tracker</string>
+    <string name="about_app_description">Fit-Nutri Tracker adalah aplikasi kesehatan cerdas yang dirancang untuk menjembatani kesenjangan antara data aktivitas fisik Anda dengan kebutuhan nutrisi harian.
+
+Secara otomatis, aplikasi ini menganalisis data dari fitness tracker (seperti jumlah langkah, detak jantung, dan kalori terbakar) untuk memprediksi jenis aktivitas yang sedang Anda lakukan, misalnya berlari, berjalan, atau sekadar beristirahat.
+
+Berdasarkan hasil prediksi tersebut dan data BMI (Indeks Massa Tubuh) Anda, Fit-Nutri Tracker kemudian memberikan rekomendasi pola makan yang dipersonalisasi, lengkap dengan estimasi kebutuhan kalori harian yang sesuai. Tujuannya adalah untuk membuat data kebugaran Anda lebih bermakna dan dapat ditindaklanjuti, sehingga Anda bisa menyelaraskan dengan tingkat aktivitas Anda secara efektif untuk mencapai target kesehatan</string>
+
+    <!-- Key Features -->
+    <string name="key_features_title">Key Features</string>
+    <string name="feature_activity_title">Your Activity Today</string>
+    <string name="feature_activity_desc">Aktifitas Yang anda telah lakukan hari ini.</string>
+    <string name="feature_calorie_title">Today\'s Calorie Needs</string>
+    <string name="feature_calorie_desc">Kebutuhan Kalori Hari ini Berdasarkan Hasil Aktifitas yang Telah Dilakukan.</string>
+    <string name="feature_diet_title">Recommended Diet Plan</string>
+    <string name="feature_diet_desc">Pola Makan Yang Disarankan Berdasarkan Aktifitas Anda.</string>
+
+    <!-- How It Works -->
+    <string name="how_it_works_title">How It Works</string>
+    <string name="step_account_title">Login App</string>
+    <string name="step_account_desc">Login Kedalam Aplikasi.</string>
+    <string name="step_tasks_title">Masukan Hasil Aktifitas</string>
+    <string name="step_tasks_desc">Masukan hasil aktifitas yang telah anda lakukan.</string>
+    <string name="step_progress_title">Track Your Progress</string>
+    <string name="step_progress_desc">Aplikasi akan merekomendasikan asupan yang sebaiknya anda penuhi.</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us_title">Profile Pengembang Aplikasi</string>
+    <string name="contact_us_desc">Bisma Maulana, Mahasiswa Program Studi Informatika Angkatan 2022 dengan NIM : 221351025 Kelas Pagi C.</string>
+
+    <!-- Footer -->
+    <string name="privacy_policy">Email</string>
+    <string name="terms_of_service">bismamaulana25@wastukancana.ac.id</string>
+
+    <!-- Content Descriptions -->
+    <string name="back_button_desc">Back button</string>
+
+</resources>
